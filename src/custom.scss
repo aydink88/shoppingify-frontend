@@ -1,0 +1,9 @@
+$primary: #f9a109;
+$font-size-base: 0.9rem;
+$btn-font-weight: 700;
+$enable-negative-margins: true;
+$small-font-size: 0.75em;
+$form-check-input-border: 2px solid rgba($primary, 1);
+$form-check-input-focus-box-shadow: none;
+$btn-focus-box-shadow: none;
+@import './node_modules/bootstrap/scss/bootstrap';

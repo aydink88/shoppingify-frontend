@@ -1,0 +1,78 @@
+{
+  "_id": "6196c57a3c020360c56989e4",
+  "name": "example shopping list",
+  "items": [
+    {
+      "item": {
+        "_id": "6196c5793c020360c56989b9",
+        "name": "noodles",
+        "category": {
+          "_id": "6196c5793c020360c5698960",
+          "name": "Pasta/Rice",
+          "user": "6196c5773c020360c5698951",
+          "__v": 0
+        },
+        "user": "6196c5773c020360c5698951",
+        "__v": 0
+      },
+      "amount": 4,
+      "done": false,
+      "_id": "6196c57a3c020360c56989e5"
+    },
+    {
+      "item": {
+        "_id": "6196c5793c020360c56989d7",
+        "name": "softener",
+        "category": {
+          "_id": "6196c5793c020360c5698966",
+          "name": "Household Supplies",
+          "user": "6196c5773c020360c5698951",
+          "__v": 0
+        },
+        "user": "6196c5773c020360c5698951",
+        "__v": 0
+      },
+      "amount": 3,
+      "done": false,
+      "_id": "6196c57a3c020360c56989e6"
+    },
+    {
+      "item": {
+        "_id": "6196c5793c020360c56989b4",
+        "name": "tea",
+        "category": {
+          "_id": "6196c5793c020360c569895f",
+          "name": "Beverages",
+          "user": "6196c5773c020360c5698951",
+          "__v": 0
+        },
+        "user": "6196c5773c020360c5698951",
+        "__v": 0
+      },
+      "amount": 4,
+      "done": false,
+      "_id": "6196c57a3c020360c56989e7"
+    },
+    {
+      "item": {
+        "_id": "6196c5793c020360c569897b",
+        "name": "garlic",
+        "category": {
+          "_id": "6196c5793c020360c5698955",
+          "name": "Vegetables",
+          "user": "6196c5773c020360c5698951",
+          "__v": 0
+        },
+        "user": "6196c5773c020360c5698951",
+        "__v": 0
+      },
+      "amount": 3,
+      "done": false,
+      "_id": "6196c57a3c020360c56989e8"
+    }
+  ],
+  "status": "completed",
+  "user": "6196c5773c020360c5698951",
+  "createdAt": 1623358800000,
+  "__v": 0
+}

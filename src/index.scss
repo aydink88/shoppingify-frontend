@@ -1,0 +1,159 @@
+@import 'https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;700&display=swap';
+@import 'custom';
+
+body {
+  margin: 0;
+  font-family: 'Quicksand', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #fafafe;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+.material-icon {
+  width: 2rem;
+  height: 2rem;
+}
+
+.search-label .input-group-text {
+  border-right: none;
+  background-color: transparent;
+}
+
+.search-input.form-control {
+  border-left: none;
+}
+
+.selected {
+  border-left: 5px solid $primary;
+}
+
+.max-content {
+  width: max-content;
+}
+
+.w-30 {
+  width: 30%;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.unclickable {
+  pointer-events: none;
+}
+
+.list-icon {
+  color: $primary;
+}
+
+.list-icon-inverted {
+  background-color: $primary;
+  color: white;
+}
+
+.w-ch3 {
+  width: 3ch;
+}
+
+.w-ch5 {
+  width: 5ch;
+}
+
+.o-0 {
+  opacity: 0;
+}
+
+.o-100 {
+  opacity: 1;
+}
+
+.object-fit-cover {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.sidebarfade-enter {
+  opacity: 0;
+  transform: translateX(100%);
+}
+.sidebarfade-enter-active {
+  opacity: 1;
+  transform: translateX(0%);
+}
+.sidebarfade-exit {
+  opacity: 1;
+  transform: translateX(0%);
+}
+.sidebarfade-exit-active {
+  opacity: 0;
+  transform: translateX(100%);
+}
+.sidebarfade-enter-active,
+.sidebarfade-exit-active {
+  transition: opacity 300ms, transform 300ms;
+}
+
+.app-logo .logout {
+  transform: translateX(-1000px);
+  transition: all 300ms ease-in-out;
+}
+.app-logo:hover .logout {
+  transform: translateX(0);
+}
+
+.add_item-btn {
+  color: #777;
+  &:hover {
+    color: $primary;
+  }
+}
+
+.zoom-on-hover {
+  transform: scale(1);
+  transition: transform 0.1s ease-in;
+
+  &:hover {
+    transform: scale(1.1);
+    transition: transform 0.1s ease-out;
+  }
+}
+
+.toast-container {
+  z-index: 1000000;
+}
+
+.zindex-1 {
+  z-index: 1;
+}
+
+.zindex-n1 {
+  z-index: -1;
+}
+
+@include media-breakpoint-down(md) {
+  h3 {
+    font-size: 1.1rem;
+  }
+
+  .h5 {
+    font-size: 0.9rem;
+  }
+
+  .h6 {
+    font-size: 0.8rem;
+  }
+
+  .card-title {
+    max-width: 18ch;
+  }
+}
